@@ -336,7 +336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &365037390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -385,8 +385,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279571868
+  m_fontColor: {r: 0.6132076, g: 0.08388218, b: 0.08388218, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1099,7 +1099,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1609d0df53a1af24fb07191b2d40bb57, type: 2}
+  - {fileID: 2100000, guid: 00af6083dc45b914bbc8e413690740a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1179,6 +1179,7 @@ MonoBehaviour:
   - {fileID: 7783043257705844370, guid: 0d4669844ddf07842b0b1a4b2e753e5a, type: 3}
   - {fileID: 8353845472901166320, guid: b8b64b3043c19d3428dc90f426e4c794, type: 3}
   scoreText: {fileID: 1253440436}
+  gameOverText: {fileID: 365037391}
 --- !u!4 &1942883040
 Transform:
   m_ObjectHideFlags: 0
