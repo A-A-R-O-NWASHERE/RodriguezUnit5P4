@@ -23,7 +23,7 @@ public class GameManagerX : MonoBehaviour
     private float minValueY = -3.75f; //  y value of the center of the bottom-most square
     
     // Start the game, remove title screen, reset score, and adjust spawnRate based on difficulty button clicked
-    public void StartGame()
+    public void StartGame(float difficulty)
     {
         spawnRate /= difficulty;
         isGameActive = true;
@@ -70,7 +70,7 @@ public class GameManagerX : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.text = ​"Score: " ​+ score​;
+        scoreText.text = "Score: " + score;
     }
 
     // Stop game, bring up game over text and restart button
